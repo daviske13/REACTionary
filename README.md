@@ -1,2 +1,0 @@
-# REACTionary
-Challenge 02
