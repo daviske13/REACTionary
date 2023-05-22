@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>Katie Davis Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -17,6 +17,7 @@
   <header>
     <nav>
       <ul>
+        <li><a class="inactive">Katie Davis</a></li>
         <li><a class="active" href="#about">About Me</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -34,12 +35,22 @@
   <section id="portfolio">
     <h2>Portfolio</h2>
     <div class="project">
-      <h3>Project 1</h3>
-      <p>Description of the project.</p>
+      <h3>Github Link</h3>
       <a href="project1-demo.html">Demo</a>
       <a href="project1-github.html">GitHub</a>
     </div>
     <!-- Repeat the project div for other projects -->
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf">Download Resume</a>
+    <ul>
+      <li>Proficiency 1</li>
+      <li>Proficiency 2</li>
+      <li>Proficiency 3</li>
+      <!-- Add more proficiencies -->
+    </ul>
   </section>
 
   <section id="contact">
@@ -58,16 +69,6 @@
     </form>
   </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="resume.pdf">Download Resume</a>
-    <ul>
-      <li>Proficiency 1</li>
-      <li>Proficiency 2</li>
-      <li>Proficiency 3</li>
-      <!-- Add more proficiencies -->
-    </ul>
-  </section>
 
   <footer>
     <p>Connect with me:</p>
@@ -118,15 +119,5 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

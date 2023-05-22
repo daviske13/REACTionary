@@ -17,14 +17,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #daf5fe, #caeffb, #bae8f8, #ade2f4, #a0dcf0);
+  background: linear-gradient(135deg, #e1ebff, #b9dcff, #9ec3eb, #5f9cdc, #428ad8);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 header {
-  color: #fff;
+  color: #010b0f;
   padding: 20px;
+  text-align: center;
+  font-size: xx-large;
 }
 
 nav ul {
